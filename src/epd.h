@@ -11,7 +11,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-#include "src/epd_font.h"
+#include "epd_font.h"
 
 typedef enum {
     kEpdOrientationNormal = 0,

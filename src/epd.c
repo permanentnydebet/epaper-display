@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "src/epd.h"
+#include "epd.h"
 
 EpdImage *EPD_NewImage(uint16_t resolution_x, uint16_t resolution_y, EpdOrientation orientation, EpdColor color) {
     if (orientation == kEpdOrientationLast || color == kEpdColorLast)
